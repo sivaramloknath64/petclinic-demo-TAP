@@ -5,10 +5,11 @@ pipeline {
                 steps {
                   echo "Deploying to Prod1"
                 }
-  
+      }
       stage('Deploy to Prod2') {
                 steps {
                   echo "Deploying to Prod2"
-                }             
+                }
+      }         
   }
 }
